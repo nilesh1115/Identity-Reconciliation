@@ -49,7 +49,7 @@ export class IdentityService {
 
     return {
       contact: {
-        primaryContactId: contact.id,
+        primaryContatctId: contact.id,
         emails: email ? [email] : [],
         phoneNumbers: phoneNumber ? [phoneNumber] : [],
         secondaryContactIds: []
@@ -165,7 +165,7 @@ export class IdentityService {
 
     return {
       contact: {
-        primaryContactId: primaryId,
+        primaryContatctId: primaryId,
         emails,
         phoneNumbers: phones,
         secondaryContactIds: secondaryIds
